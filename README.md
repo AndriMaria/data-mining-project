@@ -3,10 +3,10 @@ Python project applying machine learning and deep learning techniques to classif
 
 
 ## 📌 About
-The goal of this project is to recognize human activities (e.g. walking, sitting, standing) using accelerometer data collected from sensors placed on the **back** and **thigh** of participants. Multiple ML models were trained and compared to find the best classifier for this task.
+- The goal of this project is to recognize human activities (e.g. walking, sitting, standing) using accelerometer data collected from sensors placed on the **back** and **thigh** of participants. Multiple ML models were trained and compared to find the best classifier for this task.
 ---
 
-## 📁 Notebooks
+## Notebooks
 
 | Notebook | Description |
 |----------|-------------|
@@ -30,7 +30,7 @@ The goal of this project is to recognize human activities (e.g. walking, sitting
 
 ---
 
-## 🔬 Models & Results
+## Models & Results
 
 ### Classifiers (`3Classifiers.ipynb`)
 Trained on accelerometer data with a **sliding window** approach (window size = 10):
@@ -52,7 +52,7 @@ A 4-layer Dense Neural Network trained with TensorFlow:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains accelerometer readings from sensors on the **back** and **thigh**:
 
@@ -74,7 +74,7 @@ Data was **normalized** via standardization and reduced using a **sliding window
 - Evaluating models with confusion matrices and classification reports.
 - Applying unsupervised learning (K-Means, DBSCAN) to activity data.
 
-## ⚠️ Notes
+### Notes
 
 - The DBSCAN notebook encountered memory limitations on large datasets.
 - The dataset CSV files are not included in this repo.
